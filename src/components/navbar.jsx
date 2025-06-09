@@ -68,7 +68,7 @@ export default function Navbar({ isLoggedIn, isAdmin, toggleAuth }) {
         </button>
       </div>
 
-      {/* Mobile Nav Links */}
+      
       {isMenuOpen && (
         <ul className="md:hidden bg-white shadow-md p-4 space-y-3">
           <li>
